@@ -1,0 +1,44 @@
+{
+  "name": "finpilot-credit-api",
+  "version": "1.0.0",
+  "description": "Credit Score Predictor API using Node.js and Express",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "build": "echo 'Build complete - No build step required for Node.js API'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/finpilot/credit-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/finpilot/credit-api/issues"
+  },
+  "homepage": "https://github.com/finpilot/credit-api#readme",
+  "keywords": [
+    "credit",
+    "credit-score",
+    "fintech",
+    "api",
+    "ml",
+    "machine-learning",
+    "prediction",
+    "express",
+    "nodejs",
+    "rest-api"
+  ],
+  "author": "FinPilot",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
